@@ -1,4 +1,5 @@
 require "newrelic-middleware/version"
+require "newrelic-middleware/railtie"
 
 module NewRelicMiddleware
   class TrackingSupport
